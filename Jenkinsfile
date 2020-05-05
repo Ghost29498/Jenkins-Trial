@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                bat 'dir tools/maven'
+                bat 'dir tools\maven'
             }
         }
     }
